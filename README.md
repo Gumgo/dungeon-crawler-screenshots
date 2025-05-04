@@ -13,7 +13,7 @@ Some work on an overlay inventory system.
 ![Overlay inventory](/Rendering/inventory1.png)
 ![Overlay inventory bounding boxes](/Rendering/inventory2.png)
 
-For efficiency, I used a simple "portal"-based culling system in which the scene was divided rooms and a room would only render if it was visible a series of doorways (which would be successively clipped). In this screenshot, the next room is visible but the room after is not because its doorway cannot be seen through the doorway to the right of the player.
+For efficiency, I used a simple "portal"-based culling system in which the scene was divided into rooms and a room would only render if it was visible through a series of doorways (which would be successively clipped). In this screenshot, the next room is visible but the room after is not because its doorway cannot be seen through the doorway to the right of the player.
 
 ![Portal-based culling](/Rendering/portals1.png)
 
