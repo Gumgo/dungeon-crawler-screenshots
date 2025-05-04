@@ -1,2 +1,3 @@
-# dungeon-crawler-screenshots
-Screenshots of a dungeon crawler game engine I worked on a while back
+# Dungeon crawler screenshots
+
+Here are some screenshots of an experimental dungeon crawler game engine I worked on a while back as a hobby project. When I built this, I was targeting OpenGL ES 3.0-level hardware. Dungeons are generated procedurally using geometry from tilesets built in 3D modeling software like Blender or Maya. Once tiles are placed, the geometry is further refined and lighting is then baked into a static lightmap. Other features include skeletal animation supporting skinned meshes, character physics, navmesh-based A* pathfinding, integrated LUA scripting, and a GUI editor for game asset management.
